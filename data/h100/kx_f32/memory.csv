@@ -1,0 +1,51 @@
+# kind: series
+# title: Device Memory
+# y_label: GiB
+# device: NVIDIA H100 80GB HBM3
+# compute_capability: 9.0
+# sms: 132
+# l2_bytes: 52428800
+# cuda_runtime: 13010
+# cuda_driver: 13000
+# run: 2026-11-16_14-48-32
+# max_dimension: 32768
+# max_recursions: 4
+# max_range: 5
+# warm_ups: 3
+# warm_up_ms: 1000
+# iterations: 50
+series,N,value
+CAPS R=1,12288,1.54296875
+CAPS R=1,24576,5.96875
+CAPS R=1,49152,23.6875
+CAPS R=2,12288,2.7578125
+CAPS R=2,24576,10.8203125
+CAPS R=2,49152,43.09375
+CAPS R=3,24576,18.46679688
+CUBLAS,12288,0.84375
+CUBLAS,24576,3.375
+CUBLAS,49152,13.5
+CUBLAS best,12288,0.90625
+CUBLAS best,24576,3.4375
+CUBLAS best,49152,13.5625
+DFSCaps R=2,12288,1.095703125
+DFSCaps R=2,24576,4.359375
+DFSCaps R=2,49152,17.4375
+DFSCaps R=3,12288,1.306640625
+DFSCaps R=3,24576,5.203125
+DFSCaps R=3,49152,20.8125
+DFSCaps R=4,12288,1.650390625
+DFSCaps R=4,24576,6.57421875
+DFSCaps R=4,49152,26.296875
+DFSCaps overlapped R=2,12288,1.341796875
+DFSCaps overlapped R=2,24576,5.34375
+DFSCaps overlapped R=2,49152,21.375
+DFSCaps overlapped R=3,12288,1.763671875
+DFSCaps overlapped R=3,24576,7.03125
+DFSCaps overlapped R=3,49152,28.125
+DFSCaps overlapped R=4,12288,2.451171875
+DFSCaps overlapped R=4,24576,9.7734375
+DFSCaps overlapped R=4,49152,39.09375
+OWN wgmma,12288,0.845703125
+OWN wgmma,24576,3.375
+OWN wgmma,49152,13.5

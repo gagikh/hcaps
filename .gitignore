@@ -1,0 +1,25 @@
+*.exe
+*.pdb
+*.dll
+*.exp
+*.lib
+*.idb
+*.user
+*.json
+*.sln
+*.cmake
+*.filters
+*.vcxproj
+*.yaml
+*.dir/
+*_autogen/
+CMakeCache.txt
+Testing/
+CMakeFiles/
+x64
+build
+__pycache__
+bin/
+docs/html/
+linux_bin/
+Claude outputs/
